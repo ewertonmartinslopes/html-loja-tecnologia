@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+    min-height: 100vg;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(163, 220, 247);
+    
+}
+
+    header{
+        background-color: black;
+        color: rgb(255, 252, 252);
+        text-align: center;
+        padding: 30px;
+}
+    header h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+}
+    header p{
+        color: crimson;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;      /*espaçamento entre duas caixas*/
+    padding: 30px;
+    max-width: 1300px;
+    margin: auto;
+}
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;   
+    padding-bottom: 20px;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card h2{
+    color: blue;
+    text-align: center;
+}
+.card p{
+    padding: 0 15px 15px;
+    color: black;
+}
+.card button{
+    width: 200px;
+    margin-left: 50px;
+}
